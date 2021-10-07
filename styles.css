@@ -88,11 +88,16 @@ ul{
     grid-template-rows: 40px auto;
 }
 
-ul li{
+ul li, ol > li, li ~ li{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: span 2;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p + p{
+    text-indent: 100px;
 }
 
 @font-face {
@@ -100,6 +105,10 @@ ul li{
     src: url("./Betelgeuse.ttf");
 }
 
-.fonts{
+h1.fonts{
     font-family: TitleFont, Sans-Serif;
+}
+
+*{
+    font-weight: bold;
 }
