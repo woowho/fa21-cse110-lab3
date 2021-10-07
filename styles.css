@@ -1,0 +1,105 @@
+/*
+Comments and Stuff.
+*/
+
+
+.blue {
+    color: rgb(0,0,255);
+
+}
+
+.green{
+    color: #0F0;
+}
+
+.red{
+    color: red;
+}
+
+.bg_green{
+    background-color:chartreuse;
+}
+
+.eighty_percent_width{
+    width: 80%;
+}
+
+.sixty_percent_width{
+    width: 60vw;
+}
+
+.third_relative_unit{
+    height: 80vh;
+}
+
+img{
+    position: relative;
+    padding: 0.1in 0.1in 0.1in 0.1in;
+    margin: auto;
+    border: 20px;
+    border-color: darkorchid;
+    border-style: dashed;
+    display: inline-block;
+}
+@media (hover: hover) {
+    img:hover{
+        filter: invert(1);
+    }
+}
+
+
+audio{
+    position: sticky;
+    padding-left: 2cm;
+    margin-right: 5vw;
+    border: 15px;
+    border-right: 20px;
+    border-color: darkred;
+    border-radius: 10px;
+    border-style: dotted;
+}
+
+[href]{
+    text-decoration: wavy pink underline 5px;
+    text-align: justify;
+}
+
+#max_width_100{
+    max-width: 10px;
+}
+
+#min_width_100{
+    min-width: 1000px;
+}
+
+
+input:active{
+    width: 1000px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 40px auto;
+    grid-template-rows: 40px auto;
+}
+
+ul li{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+
+@font-face {
+    font-family: TitleFont;
+    src: url("./Betelgeuse.ttf");
+}
+
+.fonts{
+    font-family: TitleFont, Sans-Serif;
+}

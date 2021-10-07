@@ -7,16 +7,22 @@
       rel="shortcut icon"
       href="https://www.treehugger.com/thmb/HlZ_cyYEuFmjbsAfywGpim3fGEA=/1885x1414/smart/filters:no_upscale()/GettyImages-1000059966-2b3ef6408c4b497a9b9bb3e99e4d1ec9.jpg"
     />
+    <link rel="stylesheet" href="styles.css">
+  <style>
+    #yellow{
+      color: hsla(100, 100%, 50%, 1) 
+    }
+  </style>
   </head>
   <body>
     <header>
-      <h1>Pomodoro Timer First Brainstorm</h1>
+      <h1 class="fonts">Pomodoro Timer First Brainstorm</h1>
       <h2>Oct. 1, 2021</h2>
     </header>
     <nav>
       <a href=".">HOME</a>
     </nav>
-    <main>
+    <main style="background-color: aqua;" id="yellow">
       <section>
         <div>
           <h2>
@@ -26,14 +32,14 @@
           <h3>Present:</h3>
           <ul>
             <li>Alex</li>
-            <li>Alex <strong>'</strong>s Pet Dingo</li>
+            <li class="bg_green">Alex <strong>'</strong>s Pet Dingo</li>
             <li>Alex <b>'</b>s Pet Panda</li>
           </ul>
           <h3>Not Present:</h3>
           <ol>
             <li>Alejandro</li>
             <li>Aleksander</li>
-            <li>Sasha</li>
+            <li class="blue">Sasha</li>
           </ol>
         </div>
       </section>
@@ -49,6 +55,7 @@
           <img
             alt="IGUANA OR CAPYBAYA"
             src="https://cdn.britannica.com/79/191679-050-C7114D2B/Adult-capybara.jpg"
+            class="eighty_percent_width"
           />
         </p>
         <p>We can then enjoy this donkey's beautiful aria.</p>
@@ -66,7 +73,7 @@
               <em>Jay</em> </strong
             >, we have found a baby whale.
           </summary>
-          <video controls="" autoplay="">
+          <video controls="" autoplay="" id='min_width_100'>
             <source
               src="https://upload.wikimedia.org/wikipedia/commons/1/13/Ocean_sunfish_-_2014_11_08.ogv"
               type="application/ogg"
@@ -85,7 +92,7 @@
               value="12301230123001231"
             />
             <br />
-            <textarea>My text</textarea>
+            <textarea id='max_width_100'>My text</textarea>
             <br/>
             <label for="issuerss">Issuerssss</label>
             <input list="Issuers" name="issuer" id="issuerss" />
@@ -125,7 +132,7 @@
     </main>
     <hr />
     <footer>
-      <h1>I am footer. I am footer. I am footer.</h1>
+      <h1 class="font">I am footer. I am footer. I am footer.</h1>
     </footer>
   </body>
 </html>
